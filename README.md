@@ -1,4 +1,4 @@
-# 📚 EdTech Frontend
+# 📚 SkillUp Frontend
 
 A modern, feature-rich educational technology platform frontend built with React and Vite, designed to provide seamless learning experiences with personalized courses, live sessions, and career development tools.
 
@@ -6,7 +6,7 @@ A modern, feature-rich educational technology platform frontend built with React
 
 ## 🚀 Project Overview
 
-EdTech Frontend is a comprehensive learning management system interface that empowers students and professionals to:
+SkillUp Frontend is a comprehensive learning management system interface that empowers students and professionals to:
 
 - **Access Personalized Learning Paths** - Explore curated courses tailored to individual career goals
 - **Participate in Live Sessions** - Engage with instructors and peers in real-time interactive classes
@@ -21,7 +21,7 @@ This platform targets students, career changers, and professionals seeking struc
 
 ## 🖼 UI Preview
 
-> Below are some preview screenshots of the EdTech platform interface.
+> Below are some preview screenshots of the SkillUp platform interface.
 
 ### Home Page
 ![Home Page](screenshort/home.png)
@@ -124,7 +124,7 @@ This platform targets students, career changers, and professionals seeking struc
 ## 📂 Project Structure
 
 ```
-edtech-frontend/
+SkillUp-frontend/
 ├── src/
 │   ├── components/          # Reusable UI components
 │   │   ├── Navbar.jsx       # Navigation bar component
@@ -205,7 +205,7 @@ edtech-frontend/
 1. **Clone the Repository**
    ```bash
    git clone <repository-url>
-   cd edtech-frontend
+   cd SkillUp-frontend
    ```
 
 2. **Install Dependencies**
