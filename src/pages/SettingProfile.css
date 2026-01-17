@@ -1,0 +1,332 @@
+.profile-page-bg {
+    background: var(--card);
+    min-height: 100vh;
+    width: 100%;
+    margin: 0 0 2rem 0;
+    border-radius: 1rem;
+}
+
+.profile-container {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.profile-title {
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+    color: var(--text);
+}
+
+.profile-card {
+    display: flex;
+    align-items: center;
+    background: var(--bg);
+    color: var(--text);
+    border-radius: 14px;
+    box-shadow: var(--shadow);
+    padding: 1.2rem 2rem;
+    gap: 1.5rem;
+    min-height: 90px;
+    margin-bottom: 1.2rem;
+}
+
+.profile-avatar-wrap {
+    position: relative;
+    width: 70px;
+    height: 70px;
+}
+
+.profile-avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid var(--bg);
+    object-fit: cover;
+    background: var(--bg);
+}
+
+.profile-avatar-edit {
+    position: absolute;
+    bottom: -0.2rem;
+    right: -0.5rem;
+    background: var(--card);
+    color: var(--accent);
+    border-radius: 50%;
+    padding: 0.25rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid var(--bg);
+    font-size: 1rem;
+}
+
+.profile-card-info h2 {
+    margin: 0 0 0.2rem 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--text);
+    letter-spacing: 0.01em;
+}
+
+.profile-role {
+    color: #666;
+    font-size: 1rem;
+    margin-top: 2px;
+}
+
+.profile-location {
+    color: #888;
+    font-size: 0.98rem;
+    margin-top: 2px;
+}
+
+.profile-section-card {
+    background: var(--bg);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    padding: 1.2rem 1.5rem;
+    margin-bottom: 1.2rem;
+}
+
+.profile-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.profile-section-header h3,
+.profile-section-title {
+    color: var(--accent);
+    font-size: 1.07rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.profile-edit-btn {
+    background: #fff7ed;
+    color: #fb923c;
+    border: none;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 0.3rem 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.profile-edit-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.profile-save-btn {
+    background: var(--accent);
+    color: var(--bg);
+    border: none;
+    border-radius: 6px;
+    padding: 0.3rem 1rem;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.profile-cancel-btn {
+    background: var(--card);
+    color: var(--text);
+    border: none;
+    border-radius: 6px;
+    padding: 0.3rem 1rem;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.profile-info-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+}
+
+.profile-info-grid>div {
+    flex: 1;
+    min-width: 180px;
+    margin-bottom: 8px;
+}
+
+.profile-info-label {
+    color: #888;
+    font-size: 13px;
+}
+
+.profile-info-value {
+    font-weight: 600;
+    color: var(--text);
+}
+
+.profile-info-input {
+    width: 90%;
+    padding: 5px 8px;
+    font-size: 15px;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background: var(--card);
+    color: var(--text);
+}
+
+.profile-session-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.profile-session-card {
+    flex: 1;
+    min-width: 220px;
+    background: var(--card);
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 8px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.03);
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.profile-join-btn {
+    margin-top: 10px;
+    background: var(--accent);
+    color: var(--bg);
+    border: none;
+    border-radius: 6px;
+    padding: 0.4rem 1.1rem;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.profile-table-wrap {
+    overflow-x: auto;
+}
+
+.profile-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+}
+
+.profile-table th {
+    background: var(--card);
+    color: var(--accent);
+    padding: 8px;
+    text-align: left;
+    font-weight: 700;
+}
+
+.profile-table td {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+.profile-progress-wrap {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.profile-progress-wrap progress {
+    width: 70px;
+    height: 7px;
+    border-radius: 4px;
+}
+
+.profile-download-btn {
+    background: var(--accent);
+    color: var(--bg);
+    border-radius: 6px;
+    padding: 0.3rem 1rem;
+    font-weight: 600;
+    font-size: 15px;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    text-decoration: none;
+}
+
+.profile-mobile-logout {
+    text-align: center;
+    margin: 2rem 0 1rem 0;
+}
+
+.profile-logout-btn {
+    background: var(--accent);
+    color: var(--bg);
+    border: none;
+    border-radius: 6px;
+    padding: 0.7rem 2.2rem;
+    font-weight: 700;
+    font-size: 17px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.profile-remove-photo-btn {
+    background: #fff7ed;
+    color: #fb923c;
+    border: none;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 0.3rem 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.profile-remove-photo-btn:hover {
+    background: #ffeaea;
+    border-color: #d32f2f;
+}
+
+.profile-remove-photo{
+    display: flex;
+    align-items: start;
+    width: 100%;
+    justify-content: space-between;
+    gap: 4px;
+    color: #fb923c;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+    .profile-page-bg {
+        margin: 0 0 6rem 0;
+    }
+
+    .profile-container {
+        max-width: 98vw;
+        padding: 0.001rem 1rem;
+    }
+
+    .profile-card,
+    .profile-section-card {
+        padding: 1rem 0.6rem;
+    }
+
+    .profile-session-list {
+        flex-direction: column;
+        gap: 0.7rem;
+    }
+}

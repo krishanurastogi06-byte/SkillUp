@@ -1,0 +1,162 @@
+.pricing-page {
+    background: var(--bg);
+    color: var(--text);
+}
+
+.pricing-hero {
+    text-align: center;
+    background: var(--accent);
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-hero h1 {
+    font-size: 2.5rem;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.pricing-hero p {
+    color: #c7c7c7;
+}
+
+.pricing-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin: 2rem;
+}
+
+.pricing-card {
+    background: var(--card);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.pricing-card:hover {
+    transform: scale(1.02);
+}
+
+.price {
+    font-size: 1.5rem;
+    margin: 0.5rem 0 1rem;
+}
+
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.pricing-card li {
+    margin-bottom: 0.5rem;
+}
+
+.pricing-card.highlight {
+    border: 2px solid var(--accent);
+}
+
+.comparison-section {
+    margin: 2rem;
+    text-align: center;
+}
+
+.comparison-table {
+    width: 100%;
+    max-width: 700px;
+    margin: 1.5rem auto;
+    border-collapse: collapse;
+    background: var(--card);
+    box-shadow: var(--shadow);
+}
+
+.comparison-table th,
+.comparison-table td {
+    padding: 1rem;
+    border: 1px solid #ddd;
+}
+
+.testimonials {
+    margin: 2rem;
+    text-align: center;
+}
+
+.testimonial-card {
+    max-width: 600px;
+    margin: 0 auto;
+    background: var(--card);
+    padding: 2rem;
+    border-radius: 12px;
+    font-style: italic;
+    box-shadow: var(--shadow);
+}
+
+.faq-section {
+    margin: 2rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.faq {
+    margin-bottom: 1.5rem;
+}
+
+.faq h4 {
+    color: var(--accent);
+    margin-bottom: 0.3rem;
+}
+
+.cta-banner {
+    margin: 2rem;
+    padding: 2rem;
+    background: var(--accent);
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.cta-banner .btn {
+    background: white;
+    color: var(--accent);
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .pricing-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .pricing-hero {
+        margin: 1rem;
+        padding: 2rem;
+    }
+
+    .pricing-hero h1 {
+        font-size: 1.5rem;
+    }
+
+    .pricing-hero p {
+        font-size: 0.9rem;
+    }
+
+    .comparison-table {
+        font-size: 0.9rem;
+    }
+
+    .faq-section {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}

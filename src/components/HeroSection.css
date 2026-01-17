@@ -1,0 +1,106 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    flex-wrap: wrap;
+    background: var(--bg);
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--text);
+}
+
+.DesktopHeading {
+    display: block;
+}
+
+.MobileHeading {
+    display: none;
+}
+
+.hero-text p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: var(--text);
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn.primary {
+    background: var(--accent);
+    color: white;
+    border: none;
+}
+
+.btn.primary a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn.outline {
+    background: transparent;
+    color: var(--text);
+    border: 2px solid var(--text);
+}
+
+.btn.outline a {
+    text-decoration: none;
+    color: var(--text);
+}
+
+.hero-image img {
+    max-width: 400px;
+    width: 100%;
+    animation: floatUpDown 3s ease-in-out infinite;
+}
+
+@keyframes floatUpDown {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .DesktopHeading {
+        display: none;
+    }
+
+    .hero-text {
+        text-align: left;
+    }
+
+    .hero-text h1 {
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    .MobileHeading {
+        font-size: 2rem !important;
+        display: block;
+    }
+
+    .hero-image {
+        margin-top: 2rem;
+    }
+}

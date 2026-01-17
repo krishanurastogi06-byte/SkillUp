@@ -1,0 +1,71 @@
+.career-tools-page {
+  background: var(--bg);
+  color: var(--text);
+  margin: 0 0 6rem 0;
+}
+
+.career-grid {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.career-card {
+  background: var(--card);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: var(--shadow);
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.career-card h2 {
+  color: var(--accent);
+  font-size: 1.2rem;
+}
+
+.career-card p {
+  font-size: 0.95rem;
+}
+
+.career-card button.btn {
+  background: var(--accent);
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+}
+
+.job-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+.job-form input,
+.job-form textarea {
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: none;
+  background: var(--bg);
+  color: var(--text);
+  box-shadow: var(--shadow);
+}
+
+@media (max-width: 768px) {
+
+  .career-card {
+    flex: 1 1 100%;
+  }
+  .career-grid {
+    flex-direction: column;
+  }
+}

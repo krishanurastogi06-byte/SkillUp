@@ -1,0 +1,117 @@
+.right-sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 25rem;
+  height: 94vh;
+  background: var(--card);
+  color: var(--text);
+  padding: 1rem;
+  box-shadow: -2px 0 8px rgba(0, 0, 0, 0.05);
+  overflow-y: auto;
+  z-index: 1000;
+  display: flex;
+  border-radius: 1rem 0rem 0rem 1rem;
+  margin: 1rem 0;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.right-sidebar h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--accent);
+}
+
+.friend-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.friend {
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: background 0.2s ease;
+}
+
+.friend:hover,
+.friend.active {
+  background: var(--accent);
+  color: white;
+}
+
+.chat-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.chat-box h4 {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.messages {
+  flex: 1;
+  max-height: 200px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding-right: 0.4rem;
+}
+
+.msg {
+  background: var(--bg);
+  padding: 0.5rem 0.8rem;
+  border-radius: 8px;
+  max-width: 80%;
+  font-size: 0.9rem;
+}
+
+.msg.you {
+  align-self: flex-end;
+  background: #c7e7ff;
+}
+
+.msg.friend {
+  align-self: flex-start;
+  background: #f1f5f9;
+}
+
+.chat-input {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: none;
+  background: var(--bg);
+  box-shadow: var(--shadow);
+  color: var(--text);
+}
+
+.chat-input button {
+  background: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0 0.8rem;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .chat-input input {
+    width: 100%;
+  }
+}

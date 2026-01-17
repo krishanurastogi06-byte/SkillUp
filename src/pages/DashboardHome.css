@@ -1,0 +1,143 @@
+.subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: var(--text);
+}
+
+.page-heading-home {
+  text-align: center;
+  background: var(--accent);
+  color: white;
+  margin-top: 0;
+  padding: 2rem;
+  border-radius: 1rem;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kpi-cards {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.kpi-card {
+  background: var(--card);
+  padding: 1.5rem;
+  border-radius: 10px;
+  flex: 1 1 250px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.kpi-card:hover {
+  transform: translateY(-5px);
+}
+
+.section h2 {
+  margin-bottom: 1rem;
+  color: var(--accent);
+}
+
+.heading-dashboard-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.course-preview {
+  background: var(--card);
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  max-width: 400px;
+  flex: 1 1 220px;
+  min-width: 220px;
+  max-width: 320px;
+}
+
+.course-preview progress {
+  width: 100%;
+  height: 10px;
+  margin-top: 0.5rem;
+  appearance: none;
+}
+
+.course-preview progress::-webkit-progress-bar {
+  background: #eee;
+  border-radius: 5px;
+}
+
+.course-preview progress::-webkit-progress-value {
+  background: var(--accent);
+  border-radius: 5px;
+}
+
+.progress-label {
+  font-size: 0.9rem;
+  margin-top: 0.3rem;
+  color: var(--text);
+}
+
+.kpi-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.kpi-list li {
+  margin-bottom: 0.7rem;
+  background: var(--bg);
+  border-radius: 6px;
+  padding: 0.5rem 0.7rem;
+  color: var(--text);
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.kpi-list li strong {
+  color: var(--accent);
+  font-size: 1rem;
+}
+
+.kpi-list li span {
+  font-size: 0.92rem;
+  color: var(--text-light);
+}
+
+.continue-courses {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.section-home {
+  margin: -1rem 0 2rem 0;
+}
+
+@media (max-width: 768px) {
+
+  .section-home {
+    margin: -1rem 0 6rem 0;
+  }
+
+  .kpi-cards {
+    flex-direction: column;
+  }
+
+  .kpi-card {
+    flex: 0;
+  }
+}

@@ -1,0 +1,86 @@
+.auth-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.auth-box {
+  background: var(--card);
+  padding: 2rem 2.5rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+
+  animation: upDown 2s ease-in-out infinite;
+}
+
+@keyframes upDown {
+
+  0%,
+  100% {
+    top: 0;
+  }
+
+  50% {
+    top: -10px;
+  }
+}
+
+.auth-box h2 {
+  text-align: center;
+  color: var(--text);
+}
+
+.auth-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.auth-box input {
+  padding: 0.75rem;
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  outline: none;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.auth-box button {
+  padding: 0.75rem;
+  border: none;
+  background: var(--accent);
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.auth-box button:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+.auth-box p {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.auth-box a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .auth-box {
+    width: 70%;
+    padding: 1.5rem;
+  }
+}

@@ -1,0 +1,67 @@
+.my-courses-page {
+  background: var(--bg);
+  color: var(--text);
+  margin: 0 0 6rem 0;
+}
+
+.course-list {
+  display: grid;
+  gap: 2rem;
+  margin-top: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.course-card {
+  background: var(--card);
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  transition: transform 0.3s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+}
+
+.course-card h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: var(--accent);
+}
+
+.course-card p {
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+.course-card progress {
+  width: 100%;
+  height: 10px;
+  appearance: none;
+}
+
+.course-card progress::-webkit-progress-bar {
+  background: #eee;
+  border-radius: 5px;
+}
+
+.course-card progress::-webkit-progress-value {
+  background: var(--accent);
+  border-radius: 5px;
+}
+
+.progress-label {
+  font-size: 0.85rem;
+  margin: 0.4rem 0 1rem;
+  color: var(--text);
+}
+
+.resume-btn {
+  padding: 0.6rem 1rem;
+  background: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+}
