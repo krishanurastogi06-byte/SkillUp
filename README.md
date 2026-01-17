@@ -1,4 +1,5 @@
 # 📚 SkillUp Frontend
+### Developed by [Krishanu Rastogi](https://github.com/krishanurastogi06-byte)
 
 A modern, feature-rich educational technology platform frontend built with React and Vite, designed to provide seamless learning experiences with personalized courses, live sessions, and career development tools.
 
@@ -16,6 +17,12 @@ SkillUp Frontend is a comprehensive learning management system interface that em
 - **Connect with Community** - Collaborate and network with fellow learners
 
 This platform targets students, career changers, and professionals seeking structured, mentor-driven online education with a focus on practical skill development and career advancement.
+
+---
+
+## 💡 The Motivation
+
+> "SkillUp was built as a collaborative project where I was responsible for designing and developing the complete frontend. The idea came from observing how many learning platforms focus heavily on content but ignore user experience. I wanted to build an interface that makes learning feel structured, engaging, and motivating—especially for students who get overwhelmed by cluttered dashboards." — **Krishanu Rastogi**
 
 ---
 
@@ -204,8 +211,8 @@ SkillUp-frontend/
 
 1. **Clone the Repository**
    ```bash
-   git clone <repository-url>
-   cd SkillUp-frontend
+   git clone https://github.com/krishanurastogi06-byte/edtech-frontend.git
+   cd edtech-frontend
    ```
 
 2. **Install Dependencies**
@@ -342,7 +349,17 @@ When adding new features or components:
 
 ---
 
-## 📄 License
+---
+
+## � Author
+
+**Krishanu Rastogi**
+- **GitHub:** [@krishanurastogi06-byte](https://github.com/krishanurastogi06-byte)
+- **LinkedIn:** [Krishanu Rastogi](https://www.linkedin.com/in/krishanu-rastogi-)
+
+---
+
+## �📄 License
 
 This project is open source and available under the MIT License.
 
@@ -350,8 +367,8 @@ This project is open source and available under the MIT License.
 
 ## 🙋 Support
 
-For questions, issues, or suggestions, please open an issue on the repository or contact the development team.
+For questions, issues, or suggestions, please [open an issue](https://github.com/krishanurastogi06-byte/edtech-frontend/issues) on the repository or contact [Krishanu Rastogi](https://github.com/krishanurastogi06-byte).
 
 ---
 
-**Built with ❤️ using React, Vite, and modern web technologies**
+**Built with ❤️ by [Krishanu Rastogi](https://github.com/krishanurastogi06-byte) using React, Vite, and modern web technologies**
