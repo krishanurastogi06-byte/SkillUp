@@ -351,7 +351,7 @@ When adding new features or components:
 
 ---
 
-## � Author
+## Author
 
 **Krishanu Rastogi**
 - **GitHub:** [@krishanurastogi06-byte](https://github.com/krishanurastogi06-byte)
@@ -359,7 +359,7 @@ When adding new features or components:
 
 ---
 
-## �📄 License
+## 📄 License
 
 This project is open source and available under the MIT License.
 
